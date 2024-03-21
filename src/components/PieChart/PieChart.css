@@ -1,0 +1,12 @@
+.piechart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    width:80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 20px;
+    background-color: black;
+    border-radius: 15px;
+}

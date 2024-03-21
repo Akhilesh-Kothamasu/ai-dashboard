@@ -2,7 +2,7 @@ import React from "react";
 import Header from "../Header/Header";
 import LineChartComponent from "../LineChart/LineChart";
 import BarChartComponent from "../BarChart/BarChart";
-import LineChartComponent2 from "../LineChart2/LineChart2";
+import PieChartComponent from "../PieChart/PieChart";
 import Footer from "../Footer/Footer";
 import './DashBoard.css';
 
@@ -20,7 +20,7 @@ const DashBoard = () => {
             </div>
             <div>
                 <h3 className="heading">User Statistics By Country</h3>
-                <LineChartComponent2 />
+                <PieChartComponent/>
             </div>
             <Footer />
         </div>
